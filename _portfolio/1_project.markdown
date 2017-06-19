@@ -13,7 +13,7 @@ To give your project a background in the portfolio page, just add the img tag to
 	layout: post
 	title: Project
 	description: a project with a background image
-	img: /img/12.jpg
+	img:  /img/12.jpg
 	---
 
 
