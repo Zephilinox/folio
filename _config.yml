@@ -15,15 +15,15 @@ highlighter: pygments
 
 # Pagination
 paginate: 15
-paginate_path: "/folio/blog/page:num/"
+paginate_path: "/blog/page:num/"
 
 
 collections:
   portfolio:
     output: true
-    permalink: /folio/portfolio/:path/
+    permalink: /portfolio/:path/
   poetry:
     output: true
-    permalink: /folio/poetry/:path/
+    permalink: //poetry/:path/
 
 
