@@ -4,12 +4,12 @@ title: about
 permalink: /about/
 ---
 
-<img class="col one right" src="{{ site.baseurl }}/img/prof_pic.jpg">
+<img class="col one right" src="{{ site.baseurl }}/img/profile_1.jpg">
 
 
 <br/>
 
-## About Me
+#### About Me
 Career started here.. I've obtained these grades. I make games, sometimes I program. Occasionally, there are students, they ask a lot of questions. I do my best. Possibly not selling myself in the best light.
 
 Studied at UWE, on the Games Technology degree. Went on to study my masters at Goldsmiths. Passionate gamer, it's the games that drive me and not the coding.
