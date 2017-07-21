@@ -16,7 +16,8 @@ Because the stack is restrictive  <br/> <br/>
 ```C++
 int  static_int  = 2;
 int* dynamic_int = new int(2);
-```  <br/> <br/>
+```  
+<br/> <br/>
 
 #### How do we free it?
 {% highlight c++ %}
