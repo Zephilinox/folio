@@ -13,10 +13,10 @@ When using static allocation, the memory we use is stored in a very fast contigo
 Because the stack is restrictive  <br/> <br/>
 
 #### How do we use it?
-```C++
+{% highlight c++ %}
 int  static_int  = 2;
 int* dynamic_int = new int(2);
-```  
+{% endhighlight %}
 <br/> <br/>
 
 #### How do we free it?
