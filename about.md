@@ -3,7 +3,9 @@ layout: page
 title: about
 permalink: /about/
 ---
-<img class="col one right" src="{{ site.baseurl }}/img/profile_1.jpg">
+
+<img class="col one right" src="{{ site.baseurl }}/img/prof_pic.jpg">
+
 
 <br/>
 
