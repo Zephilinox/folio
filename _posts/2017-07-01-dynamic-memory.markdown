@@ -17,7 +17,6 @@ Because the stack is restrictive  <br/> <br/>
 int  static_int  = 2;
 int* dynamic_int = new int(2);
 {% endhighlight %}
-<br/> 
 
 #### How do we free it?
 {% highlight c++ %}
