@@ -22,7 +22,7 @@ collections:
     output: true
     permalink: /portfolio/:path/
   poetry:
-    output: false
+    output: true
     permalink: /poetry/:path/
 
 
