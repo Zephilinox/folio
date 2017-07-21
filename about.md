@@ -4,23 +4,26 @@ title: about
 permalink: /about/
 ---
 
-<img class="col one right" src="/img/prof_pic.jpg">
+<img class="col one right" src="{{ site.baseurl }}/img/prof_pic.jpg">
+
 
 <br/>
-Write your biography here. Tell the world about yourself. Link to your favorite <a href="http://reddit.com" target="blank">subreddit</a>. You can put a picture in, too. The code is already in, just name your picture "prof_pic.jpg" and put it in the img folder. 
 
-Link to your social media connections, too. This theme is set up to use <a href="http://fortawesome.github.io/Font-Awesome/" target="blank">Font Awesome icons</a>, like the ones below. Add your facebook, twitter, linkedin, or just disable all of them. 
+## About Me
+Career started here.. I've obtained these grades. I make games, sometimes I program. Occasionally, there are students, they ask a lot of questions. I do my best. Possibly not selling myself in the best light.
 
+Studied at UWE, on the Games Technology degree. Went on to study my masters at Goldsmiths. Passionate gamer, it's the games that drive me and not the coding.
+
+So, this might be a good place to list a shorthand CV, or even provide a download to one. Plenty of plugins do this. Some even generate HTML into a PDF preformatted CV. Alternatively, you may want to link to linkedin instead.
 
 <br/>
 <hr/>
 <br/>
 <span class="contacticon center">
-	<a href="mailto:you@example.com"><i class="fa fa-envelope-square"></i></a>
-	<a href="https://github.com" target="_blank"><i class="fa fa-github-square"></i></a>
-	<a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-	<a href="http://tumblr.com" target="_blank"><i class="fa fa-tumblr-square"></i></a>
-	<a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+	<a href="mailto:james2.huxtable@uwe.ac.uk"><i class="fa fa-envelope-square"></i></a>
+	<a href="https://github.com/huxyuk" target="_blank"><i class="fa fa-github-square"></i></a>
+	<a href="https://www.linkedin.com/huxyuk" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+	<a href="https://twitter.com/huxyuk" target="_blank"><i class="fa fa-twitter-square"></i></a>
 </span>
 
 <div class="col three caption">
