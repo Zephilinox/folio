@@ -17,6 +17,7 @@ Because the stack is restrictive  <br/> <br/>
 int  static_int  = 2;
 int* dynamic_int = new int(2);
 {% endhighlight %}
+<br/> <br/>
 
 #### How do we free it?
 {% highlight c++ %}
@@ -26,3 +27,4 @@ if ( dynamic_int )
   dynamic_int = nullptr;
 }
 {% endhighlight %}
+<br/> <br/>
