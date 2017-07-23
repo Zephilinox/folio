@@ -1,30 +1,24 @@
 ---
 layout: post
-title:  a post with images
-date: 2015-05-15 21:01:00
-description: this is what included images could look like
+title:  conditional loops
+date: 2017-07-19 12:00:00
+description: what are the basic conditional loops?
 ---
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Fingerstache four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. 
+C++ offers several simple and easy ways to loop. Loops can be used to process the same logic a number of times. The most common is the for loop, followed by while and the do-while. These loops are known as conditional because they continue to loop until a specific condition is met. 
 
-<div class="img_row">
-	<img class="col three" src="/img/9.jpg">
-</div>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/9.jpg">
-</div>
-<div class="col three caption">
-	A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all. 
-</div>
-<div class="img_row">
-	<img class="col two" src="/img/8.jpg">
-	<img class="col one" src="/img/10.jpg">
-</div>
+## The For Loop
+-----
 
-Slow-carb four dollar toast Helvetica pop-up. Kale chips next level literally trust fund Pitchfork. Jean shorts Pinterest beard, farm-to-table irony craft beer swag tofu 8-bit Banksy. Quinoa forage fanny pack, pug hashtag Echo Park heirloom Schlitz tote bag artisan Neutra mumblecore 90's shabby chic raw denim.
+The for loop is simply defined using:
+1. An initial value
+2. A condition to check the value against after every iteration
+3. An operation to perform after every iteration
 
+```
+for( int i=0; i<10; ++i )
+{
+  // Logic goes here...
+}
+```
 
-<div class="img_row">
-	<img class="col one" src="/img/11.jpg">
-	<img class="col one" src="/img/12.jpg">
-	<img class="col one" src="/img/7.jpg">
-</div>
+As you can see it's basic usage is simple and easy to reason. 
