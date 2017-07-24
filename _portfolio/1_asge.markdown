@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Project
-description: a project with a background image
+title: AwesomeSauce Game Engine
+description: a simple xna-style game framework for 2D
 img: /img/xna-logo1.png 
 ---
 
