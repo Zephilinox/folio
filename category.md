@@ -14,7 +14,7 @@ permalink: /category/
 
 
 <ul class="post-list">
-    {% for category in paginator.categories %}
+    {% for category in site.categories %}
     ## {category} ##
       <li>
       {% for post in site.categories[category.first] %}
