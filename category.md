@@ -5,17 +5,16 @@ permalink: /category/
 ---
 
 <div class="header-bar">
-  <h1>*folio</h1>
-  <h2>simple whitespace theme</h2>
-  <br/>
-  <hr>
+  <h1>categories</h1>
   <br/>
 </div>
 
 
 <ul class="post-list">
     {% for category in site.categories %}
-    <h4>{{ category.first }}</h4>
+    <h1>{{ category.first }}</h1>
+      <hr>
+      <br/>
       <li>
       {% for post in site.categories[category.first] %}
             <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
