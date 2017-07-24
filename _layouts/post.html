@@ -9,7 +9,6 @@ layout: default
     <p class="post-meta">
         {% for category in site.categories %}
             <a href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}"><i class="fa fa-angle-right"></i> {{ category | first | capitalize }}</a>
-            <span class="badge badge-theme pull-right">{{ category | last | size }}</span>
         {% endfor %}
     </p>
   </header>
