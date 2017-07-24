@@ -15,7 +15,7 @@ layout: default
 
     <div class="post-list">
      {% for tag in page.tags %}
-            <a href="{{ '/tags/#'  | prepend: site.baseurl  }}{{ tag | first }}"><i class="fa fa-angle-right"></i> {{ tag | first }}</a>
+            <a href="{{ '/tags/#'  | prepend: site.baseurl  }}{{ tag.first }}"><i class="fa fa-angle-right"></i> {{ tag.first }}</a>
         {% endfor %}
   </div>
 </div>
