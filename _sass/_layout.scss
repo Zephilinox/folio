@@ -200,11 +200,9 @@ float: left;
 vertical-align: middle;
 box-sizing: border-box;
 padding: 10px;
-    
-    @include media-query(max-width: 420px) {
-        width: 100.00%;
-    }
-        
+    @include media-query('<128px') {
+       width: 100.00%
+    }      
 }
 .thumbnail{
 width: 100%;
