@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  networking, a brief introduction
+title:  networking
 date:   2017-07-18 12:00:00
 description: a brief intro to networking
 ---
