@@ -18,8 +18,10 @@ Developed in response to students needs, a small framework built upon modern C++
 <div class="col three caption">
 	Example game start screens running on ASGE. In the top left you can see the FPS counter. 
 </div>
+<br/>
 
 #### Links
+----
 [ASGE][asge] download
 
 [asge]: https://github.com
