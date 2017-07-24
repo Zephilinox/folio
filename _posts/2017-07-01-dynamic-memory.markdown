@@ -4,14 +4,11 @@ title: dynamic memory 101
 date: 2017-07-01T15:09:00.000Z
 description: what is dynamic memory?
 published: true
+category: development
 tags:
-  - github
-  - github-pages
-  - jekyll
-categories:
-  - blog
-  - networking
-  - development
+  - c++
+  - low level programming
+  - snake
 ---
 **Dynamic Memory** is the use of memory during runtime. It is dynamic in that the compiler is unable to ascertain the exact amount of memory its allocation will require. This differs from static allocation where its size is determined at compile time and its location in memory is the stack. When objects are dynamically allocated they use a special region of memory called the heap. Let's look at those differences. 
 
