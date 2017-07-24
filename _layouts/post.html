@@ -15,8 +15,9 @@ layout: default
   
   <span class="post-meta">
     {% for tag in page.tags %}
+    <i class="fa fa-angle-right"> </i> 
     <a href="{{ site.baseurl }}/tags/#{{ tag }}" title="Pages tagged {{ tag }}" class="tag">
-      <i class="fa fa-angle-right"></i> {{ tag }}
+     {{ tag }}
     </a>
     {% unless forloop.last %}{% endunless %}{% endfor %}
   </span>
