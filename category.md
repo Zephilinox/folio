@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Categories
+title: tags
 permalink: /category/
 ---
 
