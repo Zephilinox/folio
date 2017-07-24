@@ -4,6 +4,10 @@ title:  networking
 date:   2017-07-18 12:00:00
 description: a brief intro to networking
 category: development
+tags:
+- networking
+- c++
+- low level programming
 ---
 <b>Networking</b> is quite rightly known for being one of the most difficult areas of gameplay to implement. In this post we'll look at some of the common techniques and technologies used to create multi-player experiences, both over WAN and LAN.
 
