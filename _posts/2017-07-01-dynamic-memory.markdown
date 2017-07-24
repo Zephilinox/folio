@@ -28,6 +28,7 @@ int* dynamic_int = new int(2);
 {% endhighlight %}
 
 <br/>
+
 #### How do we free it?
 {% highlight c++ %}
 if ( dynamic_int )
