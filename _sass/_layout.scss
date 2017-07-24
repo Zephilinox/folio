@@ -193,18 +193,19 @@ display: table;
 .clearfix:after {
 clear: both;
 }
+
 .project {
-max-width: 100.00%;
-height: 250px;
-float: left;
-vertical-align: middle;
-box-sizing: border-box;
-padding: 10px;
-display: inline-block;
+    max-width: 100.00%;
+    height: 250px;
+    float: left;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding: 10px;
+    display: inline-block;
     
-@include media-query(">420px") {
-    max-width: 48%;
-  }      
+    @include media-query($on-laptop) {
+        max-width: 48%; 
+    }      
 }
 
 .thumbnail{
