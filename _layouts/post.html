@@ -13,10 +13,10 @@ layout: default
     {{ content }}
   </article>
   
-  <span class="entry-tags">
+  <span class="post-meta">
     {% for tag in page.tags %}
     <a href="{{ site.baseurl }}/tags/#{{ tag }}" title="Pages tagged {{ tag }}" class="tag">
-      <span class="post-meta"><i class="fa fa-angle-right"></i> {{ tag }} </span>
+      <i class="fa fa-angle-right"></i> {{ tag }}
     </a>
     {% unless forloop.last %}{% endunless %}{% endfor %}
   </span>
