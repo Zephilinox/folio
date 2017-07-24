@@ -5,7 +5,7 @@ permalink: /tags/
 ---
 
 <div class="header-bar">
-  <h1>categories</h1>
+  <h1>posts by tag</h1>
   <br/>
 </div>
 
@@ -16,7 +16,7 @@ permalink: /tags/
       <hr>
       <br/>
       <li>
-      {% for post in site.tags[tags.first] %}
+      {% for post in site.tags[tag.first] %}
             <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
             <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
             <p>{{ post.description }}</p>
