@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  a post with formatting and links
+title:  networking: a brief introduction
 date:   2017-07-18 12:00:00
 description: a brief intro to networking
 ---
@@ -16,8 +16,3 @@ client-as-terminal setup go away, but I am practical above idealistic.
 [John Carmack][carmack] discussing the architectural changes to the networking model. It's clear that latency was a much bigger issue back then due to the proliferation of Dial-Up. Many of us now have broadband providing marked improvements in speed. 
 
 [carmack]: http://fabiensanglard.net/quakeSource/johnc-log.aug.htm
-
-<blockquote>
-	We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another. 
-	—Anais Nin
-</blockquote>
