@@ -4,6 +4,32 @@ title: tags
 permalink: /category/
 ---
 
+<div class="header-bar">
+  <h1>*folio</h1>
+  <h2>simple whitespace theme</h2>
+  <br/>
+  <hr>
+  <br/>
+</div>
+
+
+<ul class="post-list">
+    {% for category in paginator.categories %}
+    ## {category} ##
+      <li>
+      {% for post in site.categories[category.first] %}
+            <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+            <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
+            <p>{{ post.description }}</p>
+            <br/>
+            <hr/>
+        {% endfor %}
+      </li>
+      
+    {% endfor %}
+</ul>
+
+
 <div class="container mtb">
     <div class="row">
         <div class="col-lg-8">
