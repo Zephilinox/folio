@@ -21,7 +21,6 @@ permalink: /category/
             <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
             <p>{{ post.description }}</p>
             <br/>
-            <hr/>
         {% endfor %}
       </li>
       
