@@ -15,7 +15,7 @@ permalink: /category/
 
 <ul class="post-list">
     {% for category in site.categories %}
-    ## {category} ##
+    {{category}}
       <li>
       {% for post in site.categories[category.first] %}
             <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
