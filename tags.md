@@ -12,7 +12,7 @@ permalink: /tags/
 
 <ul class="post-list">
     {% for tag in site.tags %}
-    <h1><p class="post-title">{{ tag.first }}</p></h1>
+    <h1 id={{ tag.first }}><p class="post-title">{{ tag.first }}</p></h1>
       <hr>
       <br/>
       <li>
