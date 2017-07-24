@@ -207,8 +207,8 @@ font-size: 16px;
         max-width: 48%; 
     }
     
-    @include media-query($on-laptop) {
-        max-width: 24%;
+    @include media-query($on-desktop) {
+        max-width: 33%;
     }
 }
 
