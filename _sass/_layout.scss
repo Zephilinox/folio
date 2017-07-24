@@ -195,7 +195,7 @@ clear: both;
 }
 .project {
 width: 33.33%;
-max-width: 300px;
+table-layout: fixed;
 height: 250px;
 float: left;
 vertical-align: middle;
