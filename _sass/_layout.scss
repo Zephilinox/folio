@@ -201,7 +201,7 @@ vertical-align: middle;
 box-sizing: border-box;
 padding: 10px;
     
-    @include media-query($on-laptop) {
+    @include media-query(max-width: 420px) {
         width: 100.00%;
     }
         
