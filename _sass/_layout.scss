@@ -219,12 +219,23 @@ font-size: 16px;
     overflow: hidden;
 }
 
+//.thumbnail img{
+//    width: 500px;
+//    height: auto;
+//    position: relative;
+//    left: -25%;
+//    top: -5%;
+//}
+
 .thumbnail img{
-    width: 500px;
-    height: auto;
-    position: relative;
-    left: -25%;
-    top: -5%;
+ position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
 }
 
 .thumbnail a{
