@@ -12,22 +12,21 @@ github_username:  huxyuk
 sass:
    sass_dir: ./_sass/
     
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+
 # Build settings
 markdown: kramdown
 hightlighter: 'rouge' 
-plugins: [jekyll-paginate]
 
 # Pagination
-paginate: 15
+paginate: 2
 paginate_path: "/blog/page:num/"
-
 
 collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
-  poetry:
-    output: false
-    permalink: /poetry/:path/
-
 
