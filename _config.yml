@@ -8,9 +8,14 @@ url: https://huxyuk.github.io  # the base hostname & protocol for your site
 twitter_username: huxyuk
 github_username:  huxyuk
 
+# SASS directory
+sass:
+   sass_dir: ./_sass/
+    
 # Build settings
 markdown: kramdown
 hightlighter: 'rouge' 
+plugins: [jekyll-paginate]
 
 # Pagination
 paginate: 15
