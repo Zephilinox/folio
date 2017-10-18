@@ -1,5 +1,5 @@
 # Site settings
-title: *folio
+title: *Blog
 email: 
 description: #> # this means to ignore newlines until "baseurl:"
 baseurl: "/blog" # the subpath of your site, e.g. /blog/
