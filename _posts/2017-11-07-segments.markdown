@@ -1,0 +1,50 @@
+---
+layout: post
+title: Issues with spawning snake segments
+date: 2017-09-06 T19:45:00.000Z
+description: Issues in adding segments
+published: true
+category: LLP
+tags:
+      - LLP
+      - Snake
+---
+
+## Spawning snake segments
+
+GameState manages the games tick rate, and both snake and the food spawner are called from here.
+Originally the game state handled the snakes collision with the food, however that proved unworkable.
+
+The issue is that adding a segment must be done within the snakes tick function, after moving but before every segment's direction is updated.
+If it's done before or after this point, the new segments position will be offset from the main body.
+
+```C++
+//move all segments
+move();
+checkForDeath();
+
+//add segments here
+
+//update segment direction by passing it down
+for (int i = snake_segments.size() - 1; i > 0; --i)
+{
+  snake_segments[i]->direction = snake_segments[i - 1]->direction;
+}
+```
+
+The solution is pretty simple, just let the snake control its own collision with the food.
+
+This unfortunately means the snake has to have access to the spawner, and the spawner has access to the snake in order to ensure that the food isn't spawned where a snake segment is.
+
+This introduces a lot of coupling between these two classes. Although it's not necessarily bad in this small game, it's less than ideal.
+
+```C++
+do
+{
+  x = std::rand() % ((WINDOW_WIDTH - TILE_SIZE) / TILE_SIZE) + 1;
+  y = std::rand() % ((WINDOW_HEIGHT - TILE_SIZE) / TILE_SIZE) + 1;
+
+} while (snake.isColliding(x * TILE_SIZE, y * TILE_SIZE + 1));
+```
+ 
+Ideally, I would have reworked how it worked so that this wouldn't be an issue. This could be accomplished by using the observer pattern to send notifications of collision events. Snake could then register to a collision event with food and trigger it within its tick function, while ensuring neither food nor snake are coupled too tightly with eachother
