@@ -10,7 +10,8 @@ tags:
       - Snake
 ---
 
-## Spawning snake segments
+
+# Spawning snake segments
 
 GameState manages the games tick rate, and both snake and the food spawner are called from here.
 Originally the game state handled the snakes collision with the food, however that proved unworkable.
