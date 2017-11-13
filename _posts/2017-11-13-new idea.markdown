@@ -1,0 +1,24 @@
+---
+layout: post
+title: New Idea
+date: 2017-11-13 T21:45:00.000Z
+description: The Game Board
+published: true
+category: P&G
+tags:
+      - P&G
+      - NHS
+      - Boardgame
+---
+
+# New Idea
+
+So we've decided that the way we were doing it before just wasn't working. We could think of a way to make it fun to play and have a good win/lose state for cooperative. We also keep arguing about if it should be cooperative or competitive.
+
+We've decided to put it on hold and try out a fresh new idea, we'll see how it goes. Basically it's very similar to pandemic, with different cities connected to eachother.
+
+ <img src="https://i.imgur.com/yIsjLDX.jpg"> 
+ 
+The cities are connected based on train lines which is kinda interesting but also kinda irrelevant. Players get 3 action points per turn, it costs 1 to move a doctor and 2 to buy a doctor. You get income based on which city hospital you are in, and patients are placed on the board in a catan-like style based on dice rolls. The value for the dice roll is the same value as the income, so being able to buy doctors is based on where you are.
+
+Ultimately I don't think this idea is very good, it has its own set of issues and we kinda need to focus on just one thing. I get the impression that the others aren't huge fans of it either, and tom has some new ideas about the board game (such as a research deck) so we're going to give it another go in the next session and hope it all goes well.
