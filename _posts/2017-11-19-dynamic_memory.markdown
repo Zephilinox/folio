@@ -51,7 +51,7 @@ Futhermore game_data itself was being held and passed around as a shared_ptr, bu
 
 game_data could have been allocated on the stack as I did previously with InputManager and StateManager, however the constructor requires passing the renderer, which isn't in a valid state before it is initialised properly.
 
-As I write this I realise I could just set the default renderer pointer to nullptr and assign the game as a friend class of game_data so I can call a protected function where I can pass in the renderer once it's initialised. I'll go do that now...
+As I write this I realise I could just set the default renderer pointer to nullptr and assign the game as a friend class of game_data so I can call a private function where I can pass in the renderer once it's initialised. I'll go do that now...
 
 ### Done
 
@@ -80,6 +80,7 @@ private:
 	/** State Manager. A wrapper around storing states in a stack. */
 	StateManager state_manager;
 };
+```
 
 Game.hpp no longer creates it as a unique_ptr, and Game.cpp had to be changed so that accessing it used the object access operator rather than pointer access operator (-> to .). Game.cpp now sets the renderer once it's initialised successfully, and game_data is passed to the states like so:
 
