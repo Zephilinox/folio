@@ -51,5 +51,41 @@ Futhermore game_data itself was being held and passed around as a shared_ptr, bu
 
 game_data could have been allocated on the stack as I did previously with InputManager and StateManager, however the constructor requires passing the renderer, which isn't in a valid state before it is initialised properly.
 
-As I write this I realise I could just set the default renderer pointer to nullptr and assign the game as a friend class of game_data so I can call a protected function where I can pass in the renderer once it's initialised. I'll go do that now.
+As I write this I realise I could just set the default renderer pointer to nullptr and assign the game as a friend class of game_data so I can call a protected function where I can pass in the renderer once it's initialised. I'll go do that now...
 
+### Done
+
+#### GameData.hpp
+
+```C++
+class GameData
+{
+	friend class EndlessGame;
+
+public:
+	GameData() = default;
+
+	ASGE::Renderer* getRenderer() const;
+	StateManager* getStateManager();
+	InputManager* getInputManager();
+
+private:
+	void setRenderer(ASGE::Renderer* renderer);
+
+	ASGE::Renderer* renderer = nullptr;
+
+	/** Input Manager. A wrapper around key states from callbacks by ASGE::Input. */
+	InputManager input_manager;
+
+	/** State Manager. A wrapper around storing states in a stack. */
+	StateManager state_manager;
+};
+
+Game.hpp no longer creates it as a unique_ptr, and Game.cpp had to be changed so that accessing it used the object access operator rather than pointer access operator (-> to .). Game.cpp now sets the renderer once it's initialised successfully, and game_data is passed to the states like so:
+
+```C+++
+	//IMPORTANT: MAKE SURE RENDERER IS INITIALISED, WHICH IT MUST BE BY NOW, BEFORE DOING THIS
+	game_data.getStateManager()->push<MenuState>(&game_data);
+```
+	
+As the lovely little warning comment in full caps explains, there is one drawback to this system. It's possible for the state manager to be created and a state to be pushed (which requires game_data) before the renderer in game_data is ready, meaning a state could then try to access it (unsuccessfully). Before the constructor for game_data ensured the renderer would always be valid. Personally I'm not sure if removing the need for game_data to be a unique_ptr is worth this extra consideration, however it's done now so I'll be keeping it.
