@@ -30,6 +30,7 @@ Networked entities inherit from Entity and then overload the update, render, and
 Here is the code for the Paddle class.
 
 ```C++
+
 class Paddle : public Entity
 {
 public:
@@ -76,7 +77,8 @@ public:
 
 	AnimatedSprite sprite;
 	GameData* game_data;
-};```
+};
+```
 
 We pass in game-data so it has access to useful managers, including the network manager, which then allows it to send packets.
 We set the type of the entity to "Paddle", as a compile time string hash
@@ -87,6 +89,7 @@ Every update we send a packet via the network manager containing the entity info
 The server (or clients if we are the server) receives this, checks the entity information matches its records, and if so sends the packet to that non-owning version of the entity.
 
 ```C++
+
 void NetworkingState::onPacketReceived(const enet_uint8 channel_id, ClientInfo* ci, Packet p)
 {
 	switch (p.getID())
@@ -108,6 +111,8 @@ void NetworkingState::onPacketReceived(const enet_uint8 channel_id, ClientInfo* 
 			}
 		} break;
 	}
-}```
+}
+
+```
 
 By having each entity handling the sending and receiving of it's own packets with the server/clients just checking to ensure the entity info is valid, we don't need to maintain a massive branching function in one location for each type of packet used anywhere.
