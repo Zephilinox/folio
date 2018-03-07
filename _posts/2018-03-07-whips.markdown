@@ -1,0 +1,39 @@
+---
+layout: post
+title: Networking
+date: 2018-03-07 T215:00:00.000Z
+description: What to do in VR?
+published: true
+category: P&G
+tags:
+      - P&G
+      - VR
+---
+
+# VR
+So we've had a play around with the Oculus and made a short list of diferent features we'd like to look at.
+
+```
+Ideas
+    Ropes!
+        Indiana jones
+        Obstacle avoidance - Anchoring 
+        Spider man
+        Fishing
+    Guitar hero
+        Whack-a-Mole
+    Gaze
+        Wire loop game
+        Operation
+```
+
+Ultimately we've decided to take a closer look at ropes, and we had a little demo going where you picked up a rope and flung it around, but it was largely buggy.
+
+After doing a bit of research myself I found https://www.youtube.com/watch?v=RUMls6J6drY and the corresponding blog post http://blog.runevision.com/2017/08/july-update-trials-and-triumphs-of.html
+which shows off the Indiana Jones-style whip we had in mind. The only issue is that it appears to be very tricky to actually implement technically, having to create a physics system solely to handle the rope, and then try and get that to interact with the rest of Unity physics properly.
+
+There are prebuilt solutions available on the asset store (of course there is, why would Unity ever implement it themselves?) that we could buy, but I don't think that's likely.
+
+Given the technical difficulty of implementing the whip it's likely we won't go down this road. Though it is feasible, and the blog post explains part of the process, the amount of time and effort it would take isn't worth it.
+
+I hope the group decides to change course, but that's for the next post. Cliffhanger.
