@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Networking
-date: 2018-03-07 T215:00:00.000Z
+date: 2018-03-07 T15:00:00.000Z
 description: What to do in VR?
 published: true
 category: P&G

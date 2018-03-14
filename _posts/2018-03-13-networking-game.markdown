@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Networking Game
-date: 2018-03-13 T216:00:00.000Z
+date: 2018-03-13 T16:00:00.000Z
 description: Our plans for the fifth game
 published: true
 category: LLP
