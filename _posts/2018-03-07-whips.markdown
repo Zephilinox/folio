@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Networking
+title: Whips
 date: 2018-03-07 T15:00:00.000Z
 description: What to do in VR?
 published: true
