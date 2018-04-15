@@ -24,3 +24,7 @@ hightlighter: 'rouge'
 paginate: 2
 paginate_path: "/blog/page:num/"
 
+collections:
+    portfolio:
+        output: true
+        permalink: /portfolio/:path/
