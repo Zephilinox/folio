@@ -2,33 +2,20 @@
 layout: project
 title: Snake
 description: a simple snake game using ASGE
-img: ../img/c++.jpg
+img: ../img/snake_thumb.png
 ---
 
-<center><b>Snake</b> is a small game I made for LLP</center><br/>
+<center><b>Snake</b> is a small game I made for LLP</center>
+<br/>
+
+<img src="../img/snake.png"> 
 
 #### Snake
-A classic 2D game for LLP
-
-<!--<div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/img/asge_01.png" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/asge_02.png" alt="" title="example image"/>
-</div> -->
-
-<div class="owl-carousel owl-theme">
-<a href="{{ site.baseurl }}/img/asge_02.png" target="_blank"><img src="{{ site.baseurl }}/img/asge_02.png" /></a>
-<a href="{{ site.baseurl }}/img/asge_01.png" target="_blank"><img src="{{ site.baseurl }}/img/asge_01.png" /></a>
-<a href="{{ site.baseurl }}/img/asge_02.png" target="_blank"><img src="{{ site.baseurl }}/img/asge_02.png" /></a>
-</div>
-
-<div class="col three caption">
-	Example game start screens running on ASGE. In the top left you can see the FPS counter. 
-</div>
+A classic 2D game for LLP, use WASD to control your snake, consuming stars to grow, and make sure not to hit the edges! Press Enter to start.
 
 <br/>
 
 #### Links
 ----
-[ASGE][asge] download
 
-[asge]: https://github.com
+[snake]: https://github.com/UWEGames-LLP/snake-Zephilinox
