@@ -14,5 +14,4 @@ A classic 2D game for LLP, use WASD to control your snake, consuming stars to gr
 
 #### Links
 ----
-[Snake][snake] Github
-[snake]: https://github.com/UWEGames-LLP/snake-Zephilinox
+[snake on github](https://github.com/UWEGames-LLP/snake-Zephilinox)
