@@ -1,8 +1,22 @@
 ---
 layout: project
-title: Networking
-description: A small networked game I made using ASGE and eNet
-img: ../img/quake_400x400.jpg
+title: Cowboys
+description: A networked xcom-style game with cowboys using ASGE
+img: ../img/cowboy_thumb.png
 ---
 
-<center><b>Cowboys</b> is a small game I made for LLP</center><br/>
+#### Cowboys
+
+Cowboys is a networked, turn-based startegy game where you control a team of 5 differnt cowboys and battle it out against another player. 
+
+Click on units to select them and then right click on a tile to path towards it. If you right click an enemy unit, your unit will fire at them.
+
+Once you're done with your units actions hit end turn and the next player will be able to control one of their units.
+
+<br/>
+<img style="width: 100%" src="../../img/cowboys.png"> 
+<br/>
+
+#### Links
+----
+[birdman on github](https://github.com/UWEGames-LLP/birdman-the-game-teambirb)

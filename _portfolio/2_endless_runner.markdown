@@ -16,4 +16,4 @@ Use WASD to move and Enter to start.
 
 #### Links
 ----
-[kitty on github](https://github.com/UWEGames-LLP/endless-runner-Zephilinox)
+[kitty on github](https://github.com/UWEGames-LLP/endless-runner-game-Zephilinox)
