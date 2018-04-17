@@ -2,7 +2,7 @@
 layout: post
 title: Networking Game - Update
 date: 2018-04-15 T16:00:00.000Z
-description: Status of our networkign game
+description: Status of our networking game
 published: true
 category: LLP
 tags:

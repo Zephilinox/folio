@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Networking
+title: Networking Framework
 date: 2018-02-26 T20:00:00.000Z
 description: Creating the networking system for our framework
 published: true
