@@ -19,4 +19,4 @@ Once you're done with your units actions hit end turn and the next player will b
 
 #### Links
 ----
-[birdman on github](https://github.com/UWEGames-LLP/birdman-the-game-teambirb)
+[cowboys on github](https://github.com/UWEGames-LLP/networking-game-animousagreement)
