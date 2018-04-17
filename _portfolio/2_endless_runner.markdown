@@ -11,9 +11,10 @@ A simple endless runner for LLP. You play as a kitten on a farm, eat as many chi
 Use WASD to move and Enter to start.
 
 <br/>
-<img style="height: 400px" src="../../img/kitty.png"> 
+<img style="height: 600px" src="../../img/kitty.png"> 
 <br/>
 
 #### Links
 ----
+[Kitty][kitty] Github
 [kitty]: https://github.com/UWEGames-LLP/endless-runner-Zephilinox
