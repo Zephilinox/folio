@@ -5,7 +5,6 @@ description: A simple endless runner game using ASGE
 img: ../img/kitty_thumb.png
 ---
 
-#### Kitty on da farm
 A simple endless runner for LLP. You play as a kitten on a farm, eat as many chickens as you can while staying out of the way of any cows or pigs!
 
 Use WASD to move and Enter to start.

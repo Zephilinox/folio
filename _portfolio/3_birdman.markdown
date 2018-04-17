@@ -5,7 +5,6 @@ description: A interactive story game based on Birdman using ASGE
 img: ../img/birdman_thumb.png
 ---
 
-#### Birdman
 A simple interactive story game based on birdman for LLP.
 
 You play as an actor and have to make decisions about the way the story progresses.
