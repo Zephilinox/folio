@@ -2,7 +2,7 @@
 layout: project
 title: Cowboys
 description: A networked xcom-style game with cowboys using ASGE
-img: ../img/cowboy_thumb.png
+img: ../img/cowboys_thumb.png
 ---
 
 #### Cowboys
