@@ -1,17 +1,19 @@
 ---
 layout: project
-title: Endless Runner
+title: Kitty on da farm
 description: A simple endless runner game using ASGE
-img: ../img/unreal_logo.jpg
+img: ../img/kitty_thumb.png
 ---
 
-<center><b>Endless Runner</b> is a small game I made for LLP</center><br/>
+#### Kitty on da farm
+A A simple endless runner for LLP. You play as a kitten on a farm, eat as many chickens as you can while staying out of the way of any cows or pigs!
 
-<div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/2.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/3.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+Use WASD to move and Enter to start.
+
+<br/>
+<img style="width: 100%" src="../../img/kitty.png"> 
+<br/>
+
+#### Links
+----
+[kitty]: https://github.com/UWEGames-LLP/endless-runner-Zephilinox
